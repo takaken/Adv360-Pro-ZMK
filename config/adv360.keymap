@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL          &kp N1           &kp N2      &kp N3  &kp N4  &kp N5              &tog 1                                                                                         &mo 3  &kp N6        &kp N7  &kp N8    &kp N9    &kp N0      &kp MINUS
-   &kp TAB  &kp APOSTROPHE        &kp COMMA  &kp PERIOD   &kp P   &kp Y             &kp ESC                                                                                      &kp LGUI   &kp F         &kp G   &kp C     &kp R     &kp L      &kp SLASH
-   &kp ESC           &kp A            &kp O       &kp E   &kp U   &kp I             &kp TAB  &mt LCTRL KP_EQUAL_AS400  &kp LALT                   &kp RALT  &mt RCTRL INT_KANA  &kp ENTER   &kp D         &kp H   &kp T     &kp N     &kp S  &kp BACKSLASH
- &kp LSHFT   &kp SEMICOLON            &kp Q       &kp J   &kp K   &kp X                                                &kp HOME                  &kp PG_UP                                  &kp B         &kp M   &kp W     &kp V     &kp Z      &kp RSHFT
-     &mo 2       &kp GRAVE  &kp PAUSE_BREAK    &kp LEFT   &mo 2                    &kp BSPC                   &kp DEL   &kp END                  &kp PG_DN           &kp ENTER  &kp SPACE          &kp INT_KANA  &kp UP  &kp LBKT  &kp RBKT          &mo 2
+ &kp EQUAL          &kp N1           &kp N2      &kp N3  &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6          &kp N7  &kp N8    &kp N9    &kp N0      &kp MINUS
+   &kp TAB  &kp APOSTROPHE        &kp COMMA  &kp PERIOD   &kp P   &kp Y             &kp ESC                                                              &kp LGUI   &kp F           &kp G   &kp C     &kp R     &kp L      &kp SLASH
+   &kp ESC           &kp A            &kp O       &kp E   &kp U   &kp I             &kp TAB  &kp LCTRL  &kp LALT                   &kp RALT  &kp RCTRL  &kp ENTER   &kp D           &kp H   &kp T     &kp N     &kp S  &kp BACKSLASH
+ &kp LSHFT   &kp SEMICOLON            &kp Q       &kp J   &kp K   &kp X                                 &kp HOME                  &kp PG_UP                         &kp B           &kp M   &kp W     &kp V     &kp Z      &kp RSHFT
+     &mo 2       &kp GRAVE  &kp PAUSE_BREAK    &kp LEFT   &mo 2                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN_ARROW  &kp UP  &kp LBKT  &kp RBKT          &mo 2
             >;
         };
 

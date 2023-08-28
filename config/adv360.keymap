@@ -31,17 +31,6 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
-
-    macro_zed_em_kay: macro_zed_em_kay {
-        label = "macro_zed_em_kay";
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings
-            = <&macro_press &kp LSHFT>
-            , <&macro_tap &kp Z &kp M &kp K>
-            , <&macro_release &kp LSHFT>
-            ;
-    };
   };
 
     keymap {
@@ -70,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F12  &kp F1  &kp F2         &kp F3  &kp F4  &kp F5            &tog 1                                                   &mo 3    &kp F6          &kp F7          &kp F8           &kp F9  &kp F10          &kp F11
-  &trans  &trans  &trans    &kp PAGE_UP  &trans  &trans            &trans                                                  &trans    &trans          &trans    &kp UP_ARROW           &trans   &trans  &kp PRINTSCREEN
-  &trans  &trans  &trans  &kp PAGE_DOWN  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END          &kp F12
-  &trans  &trans  &trans         &trans  &trans  &trans                            &trans                  &trans                    &trans          &trans          &trans           &trans   &trans           &trans
-  &trans  &trans  &trans         &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                    &trans          &trans           &trans   &trans           &trans
+ &kp F12  &kp F1  &kp F2         &kp F3  &kp F4             &kp F5            &tog 1                                                   &mo 3    &kp F6          &kp F7          &kp F8           &kp F9  &kp F10          &kp F11
+  &trans  &trans  &trans    &kp PAGE_UP  &trans             &trans            &trans                                                  &trans    &trans          &trans    &kp UP_ARROW           &trans   &trans  &kp PRINTSCREEN
+  &trans  &trans  &trans  &kp PAGE_DOWN  &trans             &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END          &kp F12
+  &trans  &trans  &trans         &trans  &trans  &macro_zed_em_kay                            &trans                  &trans                    &trans          &trans          &trans           &trans   &trans           &trans
+  &trans  &trans  &trans         &trans  &trans                               &trans  &trans  &trans                  &trans  &trans  &trans                    &trans          &trans           &trans   &trans           &trans
             >;
         };
 

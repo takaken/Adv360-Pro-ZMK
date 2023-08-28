@@ -46,3 +46,15 @@ label = "macro_tab";
 #binding-cells = <0>;
 bindings = <&kp TAB>;
 };
+macro_kinesis: macro_kinesis{
+compatible = "zmk,behavior-macro";
+label = "macro_kinesis";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp GRAVE>;
+};
+macro_tab: macro_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_tab";
+#binding-cells = <0>;
+bindings = <&kp TAB>;
+};

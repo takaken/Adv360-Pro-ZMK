@@ -31,6 +31,17 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+
+    macro_zed_em_kay: macrozed_em_kay {
+        label = "macro_zed_em_kay";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LSHFT>
+            , <&macro_tap &kp Z &kp M &kp K>
+            , <&macro_release &kp LSHFT>
+            ;
+    };
   };
 
     keymap {

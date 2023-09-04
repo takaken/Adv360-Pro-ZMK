@@ -58,3 +58,13 @@ label = "macro_tab";
 #binding-cells = <0>;
 bindings = <&kp TAB>;
 };
+mmt: global-mod-tap {
+compatible = "zmk,behavior-hold-tap";
+label = "GLOBAL_MOD_TAP";
+#binding-cells = <2>;
+flavor = "tap-preferred";
+tapping-term-ms = <200>;
+quick-tap-ms = <125>;
+global-quick-tap;
+bindings = <&mo>, <&kp>;
+};

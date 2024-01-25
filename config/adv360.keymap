@@ -52,7 +52,7 @@
     fn {
       bindings = <
         &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &tog 1                                           &mo 3 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
-        &trans &trans &trans &kp PAGE_UP &trans &trans  &trans                                           &trans &trans &trans &trans &kp UP_ARROW  &trans  &kp PRINTSCREEN
+        &trans &trans &trans &kp PAGE_UP &trans &trans  &trans                                           &trans &trans &trans &kp UP_ARROW &trans  &trans  &kp PRINTSCREEN
         &trans &trans &trans &kp PAGE_DOWN &trans &trans  &trans        &trans &trans &trans &trans        &trans &kp HOME &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp END  &kp F12
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans

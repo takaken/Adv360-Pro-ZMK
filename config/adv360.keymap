@@ -35,9 +35,9 @@
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp BACKSLASH
         &kp TAB   &kp APOSTROPHE     &kp COMMA    &kp PERIOD    &kp P      &kp Y  &kp ESC                                                            &kp LGUI &kp F  &kp G  &kp C     &kp R    &kp L    &kp SLASH
-        &mt LTCRL ESC   &kp A     &kp O    &kp E    &kp U      &kp I  &kp TAB           &mt LCTRL LANG2 &kp LALT &kp RALT  &mt RCTRL LANG1           &kp ENTER &kp D  &kp H  &kp T     &kp N    &kp S &kp MINUS
+        &kp ESC   &kp A     &kp O    &kp E    &kp U      &kp I  &kp TAB           &kp LCTRL &kp LALT &kp RALT  &kp RCTRL           &kp ENTER &kp D  &kp H  &kp T     &kp N    &kp S &kp MINUS
         &kp LSHFT &kp SEMICOLON     &kp Q    &kp J    &kp K      &kp X                            &kp HOME &kp PG_UP                           &kp B  &kp M  &kp W &kp V  &kp Z &kp RSHFT
-        &mo 2     &kp GRAVE &mt LC(SPACE) LS(LC(M)) &kp LEFT &mmt 2 RIGHT_ARROW                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &mmt 2 DOWN_ARROW &kp UP  &kp LBKT &kp RBKT &mmt 2 F4
+        &mo 2     &kp GRAVE &kp LS(LC(M)) &kp LEFT &kp RIGHT_ARROW                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp DOWN_ARROW &kp UP  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
@@ -51,9 +51,9 @@
     };
     fn {
       bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
+        &kp F12 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &tog 1                                           &mo 3 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11
+        &trans &trans &trans &kp PAGE_UP &trans &trans  &trans                                           &trans &trans &trans &trans &kp UP_ARROW  &trans  &kp PRINTSCREEN
+        &trans &trans &trans &kp PAGE_DOWN &trans &trans  &trans        &trans &trans &trans &trans        &trans &kp HOME &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp END  &kp F12
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;

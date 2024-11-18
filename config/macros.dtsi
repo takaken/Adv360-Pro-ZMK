@@ -7,6 +7,9 @@
     quick-tap-ms = <175>;
     bindings = <&mo>, <&kp>;
   };
+  &mt {
+    retro-tap;
+  };
   imt: global-mt-international {
     compatible = "zmk,behavior-hold-tap";
     label = "GLOBAL_MT_INTERNATIONAL_TAP";

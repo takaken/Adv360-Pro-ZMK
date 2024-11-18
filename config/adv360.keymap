@@ -34,11 +34,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE   &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8             &kp N9           &kp N0         &kp MINUS
-   &kp TAB    &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                &none   &kp Y   &kp U      &kp I              &kp O            &kp P  &kp LEFT_BRACKET
-  &kp CAPS    &kp A     &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                  &kp LGUI  &kp RCTRL      &none   &kp H   &kp J      &kp K              &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
- &kp LSHFT    &kp Z     &kp X     &kp C      &kp V   &kp B                                 &kp INT2                  &kp INT1                         &kp N   &kp M  &kp COMMA            &kp DOT         &kp FSLH         &kp RSHFT
-     &mo 2  &kp ESC  &kp INT3  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL  &kp INT4                  &kp INT5  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp RIGHT_BRACKET  &kp NON_US_HASH             &mo 2
+ &kp EQUAL   &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8             &kp N9           &kp N0         &kp BACKSLASH
+   &kp TAB    &kp APOSTROPHE     &kp COMMA     &kp PERIOD      &kp P   &kp Y               &kp ESC                                                                &kp LGUI   &kp F   &kp G      &kp C              &kp R            &kp L  &kp SLASH
+  &mt LCTRL ESC    &kp A     &kp O     &kp E      &kp U   &kp I               &kp TAB  &mt LCTRL INT5  &kp LALT                  &kp RALT  &mt RCTRL INT4      &kp ENTER   &kp D   &kp H      &kp T              &kp N    &kp S  &kp MINUS
+ &kp LSHFT    &kp SEMICOLON     &kp Q     &kp J      &kp K   &kp X                                 &kp HOME                  &kp PG_UP                         &kp B   &kp M  &kp W            &kp V         &kp Z         &kp RSHFT
+     &mo 2  &kp GRAVE  &m INT3  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL  &kp INT5                  &kp INT4  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT             &mo 2
             >;
         };
 
@@ -54,10 +54,10 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
+ &kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &tog 1                                                   &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+ &trans  &trans  &trans  &kp PAGE_UP  &trans  &trans             &none                                                   &none  &trans  &trans  &kp UP_ARROW   &trans   &trans   &trans
+ &trans  &trans  &trans  &kp PAGE_DOWN  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp END   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &kp F12
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };

@@ -5,7 +5,6 @@
     flavor = "hold-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <175>;
-    #global-quick-tap;
     bindings = <&mo>, <&kp>;
   };
   imt: global-mt-international {
@@ -14,7 +13,6 @@
     flavor = "tap-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <175>;
-    global-quick-tap;
     bindings = <&kp>, <&kp>;
   };  
   macro_quotes: macro_quotes {

@@ -38,17 +38,17 @@
    &kp TAB    &kp APOSTROPHE     &kp COMMA     &kp PERIOD      &kp P   &kp Y               &kp ESC                                                                &kp LGUI   &kp F   &kp G      &kp C              &kp R            &kp L  &kp SLASH
   &mt LCTRL ESC    &kp A     &kp O     &kp E      &kp U   &kp I               &kp TAB  &imt LCTRL LANG2  &kp LALT                  &kp RALT  &imt RCTRL LANG1      &kp ENTER   &kp D   &kp H      &kp T              &kp N    &kp S  &kp MINUS
  &kp LSHFT    &kp SEMICOLON     &kp Q     &kp J      &kp K   &kp X                                 &kp HOME                  &kp PG_UP                         &kp B   &kp M  &kp W            &kp V         &kp Z         &kp RSHFT
-     &mo 2  &kp GRAVE  &mt LS(LC(M)) INT3 &kp LEFT  &mmt 2 RIGHT_ARROW                    &kp BSPC    &kp DEL  &kp LANG2                  &kp LANG1  &kp ENTER  &kp SPACE          &mmt 2 DOWN_ARROW   &kp UP  &kp LBKT  &kp RBKT             &mo 2
+     &mo 2  &kp GRAVE  &mt LC(SPACE) LS(LC(M)) &kp LEFT  &mmt 2 RIGHT_ARROW                    &kp BSPC    &kp DEL  &kp LANG2                  &kp LANG1  &kp ENTER  &kp SPACE          &mmt 2 DOWN_ARROW   &kp UP  &kp LBKT  &kp RBKT             &mmt 2 F4
             >;
         };
 
         layer_keypad {
             bindings = <
- &kp GRAVE   &kp N1     &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM     &kp N8  &kp KP_DIVIDE  &kp KP_MULTIPLY         &kp MINUS
-   &kp TAB    &kp Q      &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7  &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &kp LEFT_BRACKET
-  &kp CAPS    &kp A      &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp KP_N4  &kp KP_N5      &kp KP_N6      &kp KP_PLUS  &kp SINGLE_QUOTE
- &kp LSHFT    &kp Z      &kp X     &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp KP_N1  &kp KP_N2      &kp KP_N3     &kp KP_ENTER         &kp RSHFT
-     &mo 2  &kp ESC  &kp EQUAL  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP   &kp DOWN     &kp KP_DOT     &kp KP_ENTER             &mo 2
+ &trans   &trans     &trans    &trans     &trans  &trans              &tog 1                                                                 &mo 3  &trans  &kp KP_NUM     &kp_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY         &trans
+   &trans    &trans      &trans     &trans      &trans   &trans               &trans                                                                &trans   &trans   &kp KP_N7  &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &trans
+  &trans    &trans      &trans     &trans      &trans   &trans               &trans  &trans  &trans                   &trans  &trans                &trans   &trans    &kp KP_N4  &kp KP_N5      &kp KP_N6      &kp KP_PLUS  &trans
+ &trans    &trans      &trans     &trans      &trans   &trans                                 &trans                  &trans                         &kp KP_N0   &kp KP_N1  &kp KP_N2      &kp KP_N3     &kp KP_ENTER         &kp RSHFT
+     &mo 2  &trans  &trans  &kp LEFT  &kp RIGHT                    &trans    &trans   &trans                  &trans  &trans  &trans              &kp KP_N0   &kp UP     &kp KP_DOT     &trans             &mo 2
             >;
         };
 

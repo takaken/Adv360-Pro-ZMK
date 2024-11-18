@@ -11,9 +11,10 @@
     compatible = "zmk,behavior-hold-tap";
     label = "GLOBAL_MT_INTERNATIONAL_TAP";
     #binding-cells = <2>;    
-    flavor = "tap-preferred";
+    flavor = "hold-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <175>;
+    require-prior-idle-ms = <125>
     bindings = <&kp>, <&kp>;
   };  
   macro_quotes: macro_quotes {

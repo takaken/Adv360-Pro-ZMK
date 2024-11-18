@@ -8,6 +8,15 @@
     #global-quick-tap;
     bindings = <&mo>, <&kp>;
   };
+  imt: global-mt-international {
+    compatible = "zmk,behavior-hold-tap";
+    label = "GLOBAL_MT_INTERNATIONAL_TAP";
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <175>;
+    global-quick-tap;
+    bindings = <&kp>, <&kp>;
+  };  
   macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
     label = "macro_quotes";

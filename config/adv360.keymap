@@ -38,7 +38,7 @@
    &kp TAB    &kp APOSTROPHE     &kp COMMA     &kp PERIOD      &kp P   &kp Y               &kp ESC                                                                &kp LGUI   &kp F   &kp G      &kp C              &kp R            &kp L  &kp SLASH
   &mt LCTRL ESC    &kp A     &kp O     &kp E      &kp U   &kp I               &kp TAB  &mt LCTRL INT5  &kp LALT                  &kp RALT  &mt RCTRL INT4      &kp ENTER   &kp D   &kp H      &kp T              &kp N    &kp S  &kp MINUS
  &kp LSHFT    &kp SEMICOLON     &kp Q     &kp J      &kp K   &kp X                                 &kp HOME                  &kp PG_UP                         &kp B   &kp M  &kp W            &kp V         &kp Z         &kp RSHFT
-     &mo 2  &kp GRAVE  &kp INT3  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL  &kp INT5                  &kp INT4  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT             &mo 2
+     &mo 2  &kp GRAVE  &mt INT3 LS(LC(M))  &kp LEFT  &mmt 2 RIGHT_ARROW                    &kp BSPC    &kp DEL  &kp INT5                  &kp INT4  &kp ENTER  &kp SPACE          &mmt 2 DOWN_ARROW   &kp UP  &kp LBKT  &kp RBKT             &mo 2
             >;
         };
 
@@ -56,8 +56,8 @@
             bindings = <
  &kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &tog 1                                                   &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
  &trans  &trans  &trans  &kp PAGE_UP  &trans  &trans             &none                                                   &none  &trans  &trans  &kp UP_ARROW   &trans   &trans   &trans
- &trans  &trans  &trans  &kp PAGE_DOWN  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp END   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &kp F12
+ &trans  &trans  &trans  &kp PAGE_DOWN  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp END   &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };

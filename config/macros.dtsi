@@ -10,6 +10,7 @@
   imt: global-mt-international {
     compatible = "zmk,behavior-hold-tap";
     label = "GLOBAL_MT_INTERNATIONAL_TAP";
+    #binding-cells = <2>;    
     flavor = "tap-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <175>;

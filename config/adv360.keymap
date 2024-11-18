@@ -38,7 +38,7 @@
    &kp TAB    &kp APOSTROPHE     &kp COMMA     &kp PERIOD      &kp P   &kp Y               &kp ESC                                                                &kp LGUI   &kp F   &kp G      &kp C              &kp R            &kp L  &kp SLASH
   &mt LCTRL ESC    &kp A     &kp O     &kp E      &kp U   &kp I               &kp TAB  &mt LCTRL INT5  &kp LALT                  &kp RALT  &mt RCTRL INT4      &kp ENTER   &kp D   &kp H      &kp T              &kp N    &kp S  &kp MINUS
  &kp LSHFT    &kp SEMICOLON     &kp Q     &kp J      &kp K   &kp X                                 &kp HOME                  &kp PG_UP                         &kp B   &kp M  &kp W            &kp V         &kp Z         &kp RSHFT
-     &mo 2  &kp GRAVE  &m INT3  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL  &kp INT5                  &kp INT4  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT             &mo 2
+     &mo 2  &kp GRAVE  &kp INT3  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL  &kp INT5                  &kp INT4  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT             &mo 2
             >;
         };
 

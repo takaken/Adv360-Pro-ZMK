@@ -19,14 +19,14 @@
 
       tdl_mt: tap_dance_mod_tap_ctr_left {
         compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;w
+        #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&mt LCTRL LANG2>, <&kp LANG2>;
       };
       
       tdr_mt: tap_dance_mod_tap_ctr_right {
         compatible = "zmk,behavior-tap-dance";
-        #binding-cells = <0>;w
+        #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&mt RCTRL LANG1>, <&kp LANG1>;
       };

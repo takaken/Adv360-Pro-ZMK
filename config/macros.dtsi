@@ -14,7 +14,7 @@
     flavor = "hold-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <175>;
-    require-prior-idle-ms = <125>
+    require-prior-idle-ms = <125>;
     bindings = <&kp>, <&kp>;
   };  
   macro_quotes: macro_quotes {

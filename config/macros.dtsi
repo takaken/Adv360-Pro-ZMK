@@ -12,7 +12,8 @@
     label = "GLOBAL_MT_INTERNATIONAL_TAP";
     #binding-cells = <2>;    
     flavor = "tap-preferred";
-    tapping-term-ms = <400>;
+    retro-tap;
+    tapping-term-ms = <200>;
     quick-tap-ms = <175>;
     bindings = <&kp>, <&kp>;
   };  
